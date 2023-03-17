@@ -1,0 +1,222 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+/* body{ */
+    /* font-family: 'Nunito Sans', serif; */
+
+
+.hero {
+    width: 100%; 
+    height: 10vh;
+    background-color: white; 
+    background-size: cover; 
+    background-position: center; 
+     padding-bottom: 7%;
+     
+     
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.logo {
+    color: rgb(7, 7, 7);
+    font-size: 28px;
+}
+
+span {
+    color: rgb(48, 45, 45);
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+ nav ul li a {
+    color: rgb(1, 1, 1);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Nunito Sans', serif; 
+ }
+
+ nav ul li a:hover{
+    color: rgb(158, 209, 50);
+    transition: .3s;
+    box-shadow: 0 0.5em 0.5em -0 rgb(158, 209, 50);
+ }
+
+ .homebutton button {
+    background: none;
+    color: rgb(2, 1, 1);
+    border: 2px solid;
+    padding: 1em, 2em;
+    font-size: 1em;
+    transition: all 0.25;
+    border: 2px solid;
+    padding: 0.5em 1em;
+    border-radius: 1.5em;
+    font-family: 'Nunito Sans', serif;
+ }
+
+ .homebutton button:hover {
+    border-color: rgb(158, 209, 50);
+    color: rgb(158, 209, 50);
+    box-shadow: 0 0.5em 0.5em -0 rgb(6, 6, 5);
+    transform: translateY(-0.25em);
+    cursor: pointer; 
+
+
+ }
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.cards {
+    width: 26%;
+    display: inline-block;
+    background-color: rgba(234, 230, 230, 0.911);
+    border-radius: 5px;
+    margin: 45px;
+    padding-bottom: 20px;
+    
+}
+.cards:hover{
+    box-shadow: 2px 2px 10px black;
+}
+
+
+.image img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.title{
+    text-align: center;
+    font-size: small;
+    padding-bottom: 5%;
+    padding-left: 1.2%;
+    padding-right: 1.2%;
+}
+
+
+.des {
+    text-align: center;
+}
+
+button {
+    background: none;
+    color: rgb(2, 1, 1);
+    border: 2px solid;
+    padding: 1em, 2em;
+    font-size: 0.8em;
+    transition: all 0.25;
+    border: 2px solid;
+    padding: 0.5em 1em;
+    border-radius: 1.5em;
+
+ }
+
+ button:hover {
+    border-color: rgb(158, 209, 50);
+    color: rgb(158, 209, 50);
+    box-shadow: 0 0.5em 0.5em -0 rgb(6, 6, 5);
+    transform: translateY(-0.25em);
+    cursor: pointer; 
+
+
+ }
+
+ .footer-container {
+    background-color: rgb(27, 26, 26);
+    padding: 2rem 0 0.5rem 0;
+}
+
+.footer{
+    width:80%;
+    height: 40vh;
+    background-color: rgb(27, 26, 26);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    padding-top: 5rem;
+}
+
+.footer-heading h2{
+    margin-bottom: 2rem;
+}
+
+.footer-heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover{
+    color:rgb(158, 209, 50);
+    transition: 0.2s ease-out;
+}
+
+.footer-email-form h2 {
+    margin-bottom: 2rem;
+    padding-top: 5rem;
+}
+
+#footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-email::placeholder {
+    color: rgb(135, 179, 42);
+}
+
+#footer-email-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgb(158, 209, 50);
+    color: white;
+    font-size: 1rem;
+}
+
+#footer-email-btn:hover {
+    cursor: pointer;
+    background-color:rgb(12, 13, 12) ;
+    transition: all 0.4s ease-out;
+}
+
+
+
+
+
+
+
+
+
