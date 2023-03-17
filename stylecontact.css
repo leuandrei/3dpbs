@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Nunito Sans', serif;
 }
 
 .hero {
@@ -30,7 +31,8 @@ nav {
 }
 
 span {
-    color: rgb(48, 45, 45);
+    /* color: rgb(48, 45, 45); */
+    color: rgb(78, 72, 72);
 }
 
 nav ul li{
